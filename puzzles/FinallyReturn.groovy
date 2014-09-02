@@ -16,7 +16,6 @@ CountDown finalCountDown() {
     } finally {
         return countDown
     }
-    42
 }
 
 println finalCountDown().counter
@@ -24,17 +23,17 @@ println finalCountDown().counter
 
 //FIX
 
-CountDown finalCountDownFix() {
-    def countDown = new CountDown()
-    try {
-        countDown.counter = --countDown.counter
-    } catch (ignored) {
-        println "That will never happen."
-        countDown.counter = Integer.MIN_VALUE
-    } finally {
-        return countDown
-    }
-    42
-}
-
-println finalCountDownFix().counter
+//CountDown finalCountDownFix() {
+//    def countDown = new CountDown()
+//    try {
+//        countDown.counter = --countDown.counter
+//    } catch (ignored) {
+//        println "That will never happen."
+//        countDown.counter = Integer.MIN_VALUE
+//    } finally {
+//        return countDown
+//    }
+//    42
+//}
+//
+//println finalCountDownFix().counter
