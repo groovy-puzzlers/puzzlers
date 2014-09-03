@@ -9,3 +9,5 @@ Property publicProperty = new Property()
 //println publicProperty.@property
 //println publicProperty.property
 //println publicProperty.getProperty()
+
+println publicProperty.Public__property
