@@ -1,0 +1,15 @@
+= Groovy Puzzlers
+
+This repository contains the collection of Groovy puzzlers that we can use at the conference talks.
+
+== Appearances
+
+The +appearances+ directory contains lists that detail the puzzlers that have appeared at each con.
+
+== Drafts
+
+The +drafts+ directory contains puzzle submissions and require further editing.
+
+== Puzzles
+
+The +puzzles+ directory contains the puzzles in their final form.
